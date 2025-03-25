@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Attia - Front-End&Wordpress Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <div class="logo-container">
+                    <span class="logo-text">AA</span>
+                    <div class="logo-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="subtitle pulse">Welcome to my portfolio</span>
+                <h1>Hi, I'm <span class="gradient-text" data-text="Ahmed Attia">Ahmed Attia</span></h1>
+                <h2 class="float">Front-End&Wordpress-Developer</h2>
+                <p>Crafting innovative digital experiences with modern technologies and creative solutions.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="ri-eye-line"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="ri-send-plane-line"></i>
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image float">
+                <img src="images/profile.jpg" alt="Ahmed Attia" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Full Stack Developer with a keen eye for design and a drive for creating exceptional user experiences. Specializing in modern web technologies, I transform complex challenges into elegant, user-friendly solutions.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card pulse">
+                        <i class="ri-code-line"></i>
+                        <h3>Front-End Development</h3>
+                        <p>Building responsive and dynamic web applications with modern frameworks</p>
+                    </div>
+                    <div class="about-card pulse">
+                        <i class="ri-layout-line"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive and engaging user interfaces with modern design principles</p>
+                    </div>
+                    <div class="about-card pulse">
+                        <i class="ri-wordpress-line"></i>
+                        <h3>WordPress Development</h3>
+                        <p>Building custom WordPress themes and plugins with modern development practices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Front-End Development</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Bootstrap & Tailwind CSS</li>
+                        <li>jQuery & AJAX</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>WordPress Development</h3>
+                    <ul>
+                        <li>Custom Theme Development</li>
+                        <li>Plugin Development</li>
+                        <li>WooCommerce Integration</li>
+                        <li>Elementor & Gutenberg</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>UI/UX Design</h3>
+                    <ul>
+                        <li>User Interface Design</li>
+                        <li>Wireframing & Prototyping</li>
+                        <li>Figma & Adobe XD</li>
+                        <li>Design Systems</li>
+                        <li>User Research</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">2024 - 2025</div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>WordPress Developer</h3>
+                            <span class="company-tag">Freelance</span>
+                        </div>
+                        <div class="experience-details">
+                            <ul>
+                                <li><i class="ri-check-line"></i> Developed and customized WordPress websites for clients</li>
+                                <li><i class="ri-check-line"></i> Implemented responsive designs and ensured cross-browser compatibility</li>
+                                <li><i class="ri-check-line"></i> Integrated plugins and APIs to enhance website functionality</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">2024 - 2025</div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>Front-End Developer</h3>
+                            <span class="company-tag">Olspark</span>
+                        </div>
+                        <div class="experience-details">
+                            <ul>
+                                <li><i class="ri-check-line"></i> Collaborated with development team to create user-friendly interfaces</li>
+                                <li><i class="ri-check-line"></i> Translated design wireframes into functional front-end code</li>
+                                <li><i class="ri-check-line"></i> Optimized websites for maximum speed and scalability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">2024 - 2025</div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>UI/UX Designer</h3>
+                            <span class="company-tag">Freelance</span>
+                        </div>
+                        <div class="experience-details">
+                            <ul>
+                                <li><i class="ri-check-line"></i> Assisted in creating user interface designs and wireframes</li>
+                                <li><i class="ri-check-line"></i> Conducted user research and usability testing</li>
+                                <li><i class="ri-check-line"></i> Collaborated with development team to implement design solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="ri-wordpress-line"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>WordPress Development</h3>
+                        <div class="education-meta">
+                            <span class="institution">Multiple Instructors</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <ul class="education-list">
+                            <li><i class="ri-check-line"></i> Youssef Abramo - Advanced WordPress Development</li>
+                            <li><i class="ri-check-line"></i> Mahmoud Wahid - Custom Theme Development</li>
+                            <li><i class="ri-check-line"></i> Abdel Qadeem Abu Ghazaleh - Plugin Development</li>
+                            <li><i class="ri-check-line"></i> Omar Jahama - WooCommerce Mastery</li>
+                            <li><i class="ri-check-line"></i> Mohamed Alaa - WordPress Security</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="ri-code-line"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Front-End Development</h3>
+                        <div class="education-meta">
+                            <span class="institution">Various Institutions</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <ul class="education-list">
+                            <li><i class="ri-check-line"></i> Unique Coders Academy - Advanced JavaScript</li>
+                            <li><i class="ri-check-line"></i> Abdelrahman Alaa - React.js Development</li>
+                            <li><i class="ri-check-line"></i> Olspark Company - Modern Front-End Practices</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="ri-book-line"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Technical Courses</h3>
+                        <div class="education-meta">
+                            <span class="institution">Online Platforms</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <ul class="education-list">
+                            <li><i class="ri-check-line"></i> JavaScript: Elzero Web School, Abdelrahman Gmal</li>
+                            <li><i class="ri-check-line"></i> PHP: Elzero Web School</li>
+                            <li><i class="ri-check-line"></i> UI/UX: Ihab Fayez</li>
+                            <li><i class="ri-check-line"></i> Python: OctuCode</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/builder.png" alt="Builder Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Builder Project</h3>
+                        <p class="project-description">A modern construction company platform featuring dynamic content management and responsive design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="ri-eye-line"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="ri-github-line"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/img for latest projects.png" alt="Portfolio Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Project</h3>
+                        <p class="project-description">A modern and professional portfolio website built with WordPress, featuring custom post types for projects, testimonials, and services. Includes advanced filtering and portfolio showcase features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Elementor</span>
+                            <span class="tech-tag">ACF Pro</span>
+                            <span class="tech-tag">Portfolio Post Type</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="ri-eye-line"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="ri-github-line"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/img for latest projects.png3.png" alt="Salam Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Salam Project</h3>
+                        <p class="project-description">An Islamic community platform featuring prayer times, Quran recitation, Islamic articles, and a community forum. Includes features for Islamic event management and donation system.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Elementor</span>
+                            <span class="tech-tag">BuddyPress</span>
+                            <span class="tech-tag">GiveWP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="ri-eye-line"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="ri-github-line"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/img for latest projects.png4.png" alt="Advertising Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Advertising Project</h3>
+                        <p class="project-description">A dynamic advertising agency website featuring portfolio showcase, client testimonials, and service packages. Includes advanced analytics integration and lead generation features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Elementor Pro</span>
+                            <span class="tech-tag">WooCommerce</span>
+                            <span class="tech-tag">Google Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="ri-eye-line"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="ri-github-line"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card pulse">
+                        <i class="ri-mail-line"></i>
+                        <h3>Email</h3>
+                        <p>aa01555703358aa@gmail.com</p>
+                    </div>
+                    <div class="info-card pulse">
+                        <i class="ri-phone-line"></i>
+                        <h3>Phone</h3>
+                        <p>01555703358 | 01009386853</p>
+                    </div>
+                    <div class="info-card pulse">
+                        <i class="ri-map-pin-line"></i>
+                        <h3>Location</h3>
+                        <p>Alexandria / Tanta</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="#" class="social-link" target="_blank">
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                        <a href="#" class="social-link" target="_blank">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="ri-send-plane-line"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Ahmed Attia. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
